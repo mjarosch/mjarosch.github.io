@@ -1,0 +1,478 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Resume - Mike Jarosch</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body
+		{
+			text-align: center;
+			padding-left: 20px;
+			font: .8em, myriad, "gill sans", helvetica, arial, sans-serif;
+			background-color: #DDDDDD;
+			min-width: 794px;
+			color: #444444;
+		}
+		
+		a
+		{
+			color: #BF5010;
+			text-decoration: none;
+		}
+		
+		a:hover
+		{
+			color: #555588;
+		}
+		
+		.clear
+		{
+			clear: both;
+		}
+		
+		h1, h2
+		{
+			color: #555588;
+			font-family: Segoe UI, Arial, Sans Serif;
+		}
+		
+		h1
+		{
+			font-size: 1.5em;
+		}
+		
+		h2
+		{
+			font-size: 1.0em;
+		}
+		
+		
+		/******** LAYOUT *******************/
+		#main
+		{
+			margin: 0;
+		    background: #FFFFFF url(/Skins/HaackedOrange/Images/leftBorder.gif) repeat-y left;
+		    width: 800px;
+		}
+		
+		#background
+		{
+		    background: #FFFFFF url(/Skins/HaackedOrange/Images/rightBorder.gif) repeat-y right;
+		    margin-right: -11px;
+		    margin-left: 11px;
+		    position: relative;
+		    top: 0px;
+		    left: 0px;
+		    width: 799px;
+		}
+		
+		#content
+		{
+			text-align: left;
+			line-height: 1.6em;
+		    font-family : myriad, "gill sans", helvetica, arial, sans-serif;
+		    padding: 10px 31px 10px 20px;
+		}
+		
+		#header
+		{
+			clear: both;
+			padding-bottom: 70px;
+		}
+		
+		#technicalSkills
+		{
+			clear: both;
+			padding-top:10px;
+			padding-bottom: 234px;
+			border-top: dotted 1px #DDDDDD;
+		}
+		
+		/* IE hack.  For Firefox */
+		DIV>#technicalSkills
+		{
+			padding-top:0px;
+		}
+		
+		DIV>#resumeName,
+		DIV>#resumeTitle
+		{
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+		
+		#nameAndTitle
+		{
+			float: left;
+		}
+
+		#resumeTitle
+		{
+			margin-top: 10px;
+		}
+		
+		#address
+		{
+			float: right;
+			line-height: 1.2em;
+			clear: right;
+		}
+		
+		/*********** Content Formatting ********/
+		.addressline
+		{
+			margin:0;
+		}
+		
+		#experience
+		{
+			border-top: dotted 1px #DDDDDD;
+			clear:both;
+		}
+		
+		#experience H2
+		{
+		}
+		
+		#technicalSkills H2
+		{
+			margin-bottom: 0px;
+		}
+		
+		.skillList
+		{
+			float:left;
+			padding-right: 20px;
+			width: calc(25% - 20px);
+		}
+		
+		.skillList ul
+		{
+			margin-left: 0px;
+			list-style-type: none;
+			padding: 0;
+			font-size: .9em;
+			line-height: 1.3em;
+		}
+		
+		.job
+		{
+			padding-top: 15px;
+			border-top: dotted 1px #DDDDDD;
+		}
+		
+		.companyDescription
+		{
+			display: none;
+		}
+		
+		.location
+		{
+			float: right;
+		}
+		
+		.daterange
+		{
+			float: left;
+		}
+		
+		.company
+		{
+			color: #555588;
+			font-weight: bold;
+			margin-left: 10px;
+			float: left;
+		}
+		
+		.educationDate
+		{
+			float:left;
+		}
+		
+		.activity
+		{
+			padding-top: 15px;
+			border-top: dotted 1px #DDDDDD;
+		}
+		
+		.activityName
+		{
+			color: #555588;
+			font-weight: bold;
+			margin-left: 110px;
+		}
+		
+		.activityDescription
+		{
+			margin-left: 130px;
+			margin-bottom: 10px;
+		}
+		
+		.role
+		{
+			margin-left: 130px;
+			margin-bottom: 20px;
+			margin-top: 10px;
+		}
+		
+		.subhead
+		{
+			clear: left;
+			color: #555588;
+			font-style: italic;
+			text-indent: 110px;
+		}
+		
+		
+		.institution
+		{
+			color: #555588;
+			font-weight: bold;
+			margin-left: 10px;
+			float: left;
+		}
+		
+		.jobtitle
+		{
+			clear: left;
+			font-style: italic;
+			text-indent: 110px;
+		}
+		
+		.highlights
+		{
+			padding-left: 110px;
+		}
+		
+		.school
+		{
+			padding-top: 15px;
+			border-top: dotted 1px #DDDDDD;
+		}
+		
+		#education .highlights
+		{
+			clear: both;
+		}
+		
+		#education
+		{
+			border-top: dotted 1px #DDDDDD;
+			clear:both;
+		}
+		
+		#educationHighlights
+		{
+			margin-top: -15px;
+			padding-bottom: 10px;
+		}
+		
+		DIV>#educationHighlights
+		{
+			padding-top: 15px;
+		}
+		
+		#writingSamples
+		{
+			border-top: dotted 1px #DDDDDD;
+			margin-top: -10px;
+		}
+		
+		#writingSamples .highlights
+		{
+			margin-top: -5px;
+		}
+		
+		#activities
+		{
+			border-top: dotted 1px #DDDDDD;
+		}
+		
+		#activities .highlights
+		{
+		}
+	</style>
+        <script type="text/javascript" src="/no-spam.js"></script>
+    </head>
+    <body onLoad="unmunge_emails();">
+	    <!-- Google Tag Manager -->
+	    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NBFCVX"
+	    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	    })(window,document,'script','dataLayer','GTM-NBFCVX');</script>
+	    <!-- End Google Tag Manager -->
+	
+		<div id="main">
+			<div id="background">
+				<div id="content">
+					<div id="header">
+						<div id="nameAndTitle">
+							<h1 id="resumeName">Mike Jarosch</h1>
+							<h2 id="resumeTitle">Senior Software Engineer</h2>
+						</div>
+						<div id="address">
+							<p class="addressline">River Falls, WI 54022</p>
+							<p class="addressline"><a href="mailto:mike_at_mikejarosch_dot_com">mike at mikejarosch dot com</a></p>
+							<p class="addressline">651-983-0714</p>
+						</div>
+					</div>
+	
+					<div id="technicalSkills">
+						<div id="programmingLanguages" class="skillList">
+							<h2>Languages</h2>
+							<ul>
+								<li>C#</li>
+								<li>JavaScript</li>
+								<li>HTML</li>
+								<li>SQL</li>
+								<li>CSS</li>
+							</ul>
+						</div>
+						<div id="technologies" class="skillList">
+							<h2>Technologies</h2>
+							<ul>
+								<li>ASP.NET/ASP.NET MVC</li>
+								<li>jQUery</li>
+								<li>Sitecore</li>
+								<li>Sass</li>
+								<li>Gulp</li>
+							</ul>
+						</div>
+						<div id="platforms" class="skillList">
+							<h2>Platforms</h2>
+							<ul>
+								<li>Windows Server</li>
+								<li>Azure</li>
+								<li>IIS</li>
+								<li>Microsoft SQL Server</li>
+							</ul>
+						</div>
+						<div id="tools" class="skillList">
+							<h2>Tools</h2>
+							<ul>
+								<li>Visual Studio</li>
+								<li>Git</li>
+								<li>Node</li>
+								<li>Octopus Deploy</li>
+								<li>Azure DevOps</li>
+								<li>Adobe Photoshop</li>
+							</ul>
+						</div>
+					</div><!-- end #technicalSkills -->
+	
+					<div id="experience">
+						<h2>Experience</h2>
+
+						<div class="job">
+							<div class="daterange">Oct. 15 - Present</div>
+							<div class="jobdetail">
+								<div class="company">Andersen Windows</div>
+								<div class="location">Oak Park Heights, MN</div>
+								<div class="jobtitle">Senior Software Engineer</div>
+								<ul class="highlights">
+									<li>Led development and support of various business facing applications
+									<li>Supported a multi-site Sitecore installation as part of an agile development team
+									<li>Mentored teammates on technical and development related topics
+									<li>Worked with design firms to implement look and feel for the Andersen Windows websites									
+								</ul> <!-- end highlights -->
+								<div class="subhead">Projects Include:</div>
+								<ul class="highlights">
+									<li>Rewrote the Andersen Windows website into Sitecore 8.0
+									<li>Implemented continuous integration and continuous delivery for Sitecore and other supported applications
+									<li>Upgraded the Sitecore environment from 8.0 to 8.1, from 8.1 to 8.2 and from 8.2 to 9.0
+									<li>Expanded the Sitecore environment to support multiple websites and host multiple Andersen Windows web properties
+									<li>Migrated the Sitecore environment from 3rd party infrastructure hosting provider to Azure									
+	 							</ul> <!-- end highlights -->
+							</div> <!-- end #jobdetail -->
+						</div> <!-- end #job -->
+
+						<div class="job">
+							<div class="daterange">May 14 - Sept. 15</div>
+							<div class="jobdetail">
+								<div class="company">Renewal by Andersen</div>
+								<div class="location">Cottage Grove, MN</div>
+								<div class="jobtitle">Senior Software Engineer</div>
+								<ul class="highlights">
+									<li>Led development and support of front office applications
+									<li>Collaborated with back office development team
+									<li>Worked closely with business partners to gather requirements
+								</ul> <!-- end highlights -->
+								<div class="subhead">Projects Include:</div>
+								<ul class="highlights">
+									<li>Added the ability for affiliates to enter specialty products in the order management system. This change covered 80% of specialty orders, reduced error of manual paper and fax process and saved customer service time
+									<li>Created data acquisition and reporting application for a field service project using ASP.NET MVC, SQL Server, HTML, CSS and JavaScript
+									<li>Developed data model for analyzing customer relationship management data using Qlik Sense
+									<li>Developed single sign-on interface layer for 3rd party applications not directly supporting single sign-on with Active Directory using ASP.NET MVC
+	 							</ul> <!-- end highlights -->
+							</div> <!-- end #jobdetail -->
+						</div> <!-- end #job -->						
+	
+						<div class="job">
+							<div class="daterange">May 05 - May 14</div>
+							<div class="jobdetail">
+								<div class="company">Smead Manufacturing Company</div>
+								<div class="location">Hastings, MN</div>
+								<div class="jobtitle">Senior Programmer/Analyst</div>
+								<ul class="highlights">
+									<li>Managed all internal and external websites, including web server, application design, database development and product deployment
+									<li>Worked closely with business users in defining and documenting requirements, managing deliverables and providing post implementation support
+									<li>Served in a leadership role mentoring colleagues in all aspects of development
+									<li>Advised on architectural and technological issues for other business systems using web and Internet technologies
+									<li>Worked with design firms to implement look and feel for new and existing websites
+								</ul> <!-- end highlights -->
+								<div class="subhead">Projects Include:</div>
+								<ul class="highlights">
+	                                <li>Developed online catalog system using ASP.NET MVC, MS SQL 2005, HTML, CSS and Javascript
+	                                <li>Successfully upgraded and migrated existing websites from MS Server 2003, MS SQL 2000 and IIS6 to MS Server 2008, MS SQL 2005 and IIS7
+	                                <li>Facilitated major redesign of existing website, including new look and feel, addition of new content and functionality, and updating current functionality using ASP, MS SQL 2000, HTML, CSS and Javascript
+	                                <li>Architected, built and deployed website with integrated content management system using ASP.Net and MS SQL 2000
+	                                <li>Designed, tested and implemented conversion process of data from a legacy lead tracking system and ERP system to salesforce.com using MS Access, MS SQL 2000, MS SQL DTS and VBScript
+	                                <li>Developed data collection interfaces and report displays for customer scorecard on corporate intranet using ASP and MS SQL 2000
+	 							</ul> <!-- end highlights -->
+							</div> <!-- end #jobdetail -->
+						</div> <!-- end #job -->
+	
+						<div class="job">
+							<div class="daterange">Oct. 99 - May 05</div>
+							<div class="jobdetail">
+								<div class="company">Quantum Digital</div>
+								<div class="location">Stillwater, MN</div>
+								<div class="jobtitle">Web Developer</div>
+								<ul class="highlights">
+									<li>Led and collaborated on all technical design and development of Internet projects
+									<li>Involved in project management from concept through implementation, including competitive analysis, market information, content management and delegation of design and implementation elements
+									<li>Developed web applications, including design, implementation, testing and support
+									<li>Worked with Internet team tracking trends, researching marketing initiatives including opt-in email, newsletters, affiliate programs, banner ads, and strategic partnerships
+									<li>Researched new technologies as opportunities for growth
+									<li>Managed all technological areas, including network infrastructure, application design, database development and product deployment
+									<li>Worked closely with business partners in providing price quotes, contract negotiation and project support
+								</ul> <!-- end highlights -->
+							</div> <!-- end #jobdetail -->
+						</div> <!-- end #job -->	
+					</div> <!-- end #experience -->
+
+					<div id="education">
+						<h2>Education</h2>
+						<div class="school">
+							<div class="educationDate">May 1999</div>
+							<div>
+								<div class="institution">University of Minnesota - Duluth</div>
+								<div class="location">Duluth, MN</div>
+								<ul id="educationHighlights" class="highlights">
+									<li>Bachelor of Science - Electrical and Computer Engineering</li>
+									<li>Minors in Computer Science and Mathematics</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div id="bottom"></div>
+	</body>
+</html>
