@@ -38,5 +38,10 @@
             <li>Here is my résumé in <a href="/Mike_Jarosch_Resume_December_2018.pdf" target="_blank">PDF</a>, <a href="/Mike_Jarosch_Resume_December_2018.doc" target="_blank">MS Word</a> and <a href="/Mike_Jarosch_Resume_December_2018.htm" target="_blank">html</a>.</li>
             <li>Here is a test link: <a href="/#!/bang-bang">Bang Bang</a>
         </ul>
+	<script>
+            if (window.location.hash === '#!/bang-bang') {
+                document.body.innerHTML = '<h1>I am the Warrior</h1>'
+            }
+        </script>
     </body>
 </html>
